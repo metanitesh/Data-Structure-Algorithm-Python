@@ -5,3 +5,4 @@ def all_codes(number):
   TODO: complete this method and return a list with all possible codes for the input number
   """
   pass
+
