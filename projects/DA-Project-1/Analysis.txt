@@ -1,0 +1,56 @@
+TASK 0:
+ - 2 Print statements : 2
+ - 1 Assignment and 1 length statement : 2
+Worst-Case-Big-O-Notation: O(4)
+Worst-Case-Big-O-Notation-Of-Order: O(1)
+
+TASK1:
+ - One assignment statement : 1
+ - 2 for loops with 2 statements : 2(N+2)
+ - One print and One lenght statement : 2
+
+Worst-Case-Big-O-Notation: O(2N+7)
+Worst-Case-Big-O-Notation-Of-Order: O(N)
+
+TASK2:
+ - 1 assignment : 1
+ - 1 for loop : N
+ - 2 if/else statement:
+  - testing conditon: 2
+  - type conversion: 2
+  - assignments: 2
+ - 1 Use of max: N
+ - 1 Assignment :1
+ - 1 Pring statement: 1
+Worst-Case-Big-O-Notation: O(2N+9)
+Worst-Case-Big-O-Notation-Of-Order: O(N)
+
+TASK3:
+  - 3 assignments : 3
+  - 1 for loop: 1
+  - 1 assignment: 1
+  - 1 if statement and assignment: 2
+  - In last 2 if statements and default condition only one will execute
+    the worse case is the second one, 1 if statement, 1 call to add, 1 call to split function, :3
+  - 1 print staetment : 1
+  - 1 call to sort : mlogm
+  - 1 call to for loop : m
+  - 1 call to print, 1 call to format, 1 calculation, : 3
+
+Worst-Case-Big-O-Notation: O(N + M + MLogM+ 14)
+Worst-Case-Big-O-Notation-Of-Order: O(nlogn)
+
+
+TASK4:
+ - 2 assignments: 2
+ - 1 for loop with 3 statements : N + 3
+ - 1 for loops with 4 statemes : M + 4
+ - 1 Assignment and 1 substraction of set : N + 1
+ - 1 sorting and 1 assignment: PlogP + 1
+ - 1 print statement: 1
+ - 1 for loop: P
+
+Worst-Case-Big-O-Notation: O(N + M + K + PLogP+ 12)
+Worst-Case-Big-O-Notation-Of-Order: O(nlogn)
+
+
